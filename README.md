@@ -14,10 +14,33 @@ Document and interpret findings as part of the digital investigation process.
 
 ## PROGRAM:
 Data Extraction and Investigation Tool Usage
+```bash
+lsblk
+```
+
+```bash
+sudo dd if=/dev/sda of=/home/kali/disk.img bs=512
+```
+
+```bash
+mmls ~/disk.img
+```
+```bash
+sudo ls -lh disk.img
+```
+```bash
+strings disk.img | less
+
+```
 
 ## OUTPUT:
-Unallocated Space Analysis and Extracted Data Report
+![image](https://github.com/user-attachments/assets/83a427da-d372-4b72-8e54-c874c8e31f37)
+![image](https://github.com/user-attachments/assets/4ed4a4a3-542d-42b8-af06-9c1eedaec949)
+
+![image](https://github.com/user-attachments/assets/1fc8e81f-12c1-4927-92ca-a4a0a500950e)
+
+![image](https://github.com/user-attachments/assets/d2beee48-5fee-4476-84fd-ab24954f077d)
+![image](https://github.com/user-attachments/assets/4aff8fc4-e59c-475e-bdb2-658f15c67c50)
 
 ## RESULT:
 The unallocated space was successfully analyzed, data was extracted, and the digital investigation process was followed effectively.
-
